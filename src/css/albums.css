@@ -1,0 +1,11 @@
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo {
+  width: 100px;
+  margin: 7px;
+  display: flex;
+  flex-direction: column;
+}

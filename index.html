@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css" />
+    <link rel="stylesheet" href="./src/css/layout.css" />
+    <link rel="stylesheet" href="./src/css/albums.css" />
+    <title>Electron App</title>
+  </head>
+  <body>
+    <div
+      class="columns is-marginless is-variable is-0 is-mobile is-stretched-height"
+    >
+      <nav
+        class="column is-paddingless is-narrow width-270"
+        id="navigation"
+      ></nav>
+      <main class="column is-paddingless is-vscrollable" id="main"></main>
+    </div>
+    <script type="text/javascript">
+      require("./src/render-process/nav-menu.js");
+      require("./src/render-process/comments-table.js");
+      require("./src/render-process/albums.js");
+      require("./src/render-process/users.js");
+    </script>
+  </body>
+</html>

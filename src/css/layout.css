@@ -1,0 +1,21 @@
+.bg-clr-red {
+  background-color: red;
+}
+
+html {
+  overflow: hidden;
+}
+
+.is-stretched-height {
+  height: 100vh;
+}
+
+.is-vscrollable {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.width-270 {
+  width: 270px;
+}
