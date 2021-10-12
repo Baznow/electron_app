@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "electron": "^7.1.1",
+    "electron": "^11.5.0",
     "bulma": "^0.8.0"
   }
 }
